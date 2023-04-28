@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery{
+    background-color: rgb(193, 236, 236);
+    padding: 10px; 
+    display: flex; 
+    position: relative;
+    transition: all 1s ease-in-out;
+    margin: 20px;
+   
+}
+
+.gallery-items img{
+
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border: 5px solid;
+    border-color: rgb(232, 128, 128)
+    
+}
+
+.gallery-items img:hover{
+    width: 500px;
+    height: 500px;
+}
